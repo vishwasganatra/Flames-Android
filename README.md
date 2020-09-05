@@ -27,19 +27,19 @@
    <tr>
     <td>
     <img src="imgSrc\splash.png"/>
+    </td>
     <td>
     <img src="imgSrc\main1.png"/>
     </td>
-    <td>
    </tr>
 
    <tr>
     <td>
     <img src="imgSrc\main2.png"/>
+    </td>
     <td>
     <img src="imgSrc\main3.png"/>
     </td>
-    <td>
    </tr>
    
   </table>
