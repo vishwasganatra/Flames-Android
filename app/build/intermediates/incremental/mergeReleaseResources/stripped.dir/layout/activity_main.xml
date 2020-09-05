@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+    
+                                                                           
+                 
+                       
+                                                    
+                     
+                              
+                                                                  
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcdab7"
+        tools:context=".MainActivity" android:tag="layout/activity_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <EditText
+            android:id="@+id/your_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextbackground"
+            android:drawableStart="@drawable/happy"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:ems="10"
+            android:hint="@string/your_name_string"
+            android:inputType="textPersonName"
+            android:tag="binding_1"          
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <EditText
+            android:id="@+id/partner_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextbackground"
+            android:drawableStart="@drawable/happy"
+            android:drawablePadding="10dp"
+            android:elevation="5dp"
+            android:ems="10"
+            android:hint="@string/partner_name_sring"
+            android:inputType="textPersonName"
+            android:tag="binding_2"             
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/your_name"
+            app:layout_constraintStart_toStartOf="@id/your_name"
+            app:layout_constraintTop_toBottomOf="@+id/your_name"
+            app:layout_constraintVertical_bias="0.110000014" />
+
+        <Button
+            android:id="@+id/flamesBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnback"
+            android:tag="binding_3"                                                                
+                                                     
+            android:text="FLAMES !"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/partner_name"
+            app:layout_constraintStart_toStartOf="@+id/partner_name"
+            app:layout_constraintTop_toBottomOf="@+id/partner_name"
+            app:layout_constraintVertical_bias="0.38" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flameslogo"
+            app:layout_constraintBottom_toTopOf="@+id/your_name"
+            app:layout_constraintEnd_toEndOf="@+id/your_name"
+            app:layout_constraintStart_toStartOf="@+id/your_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

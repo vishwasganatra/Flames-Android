@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fcdab7"
+        tools:context=".splash" android:tag="layout/activity_splash_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ImageView
+            android:id="@+id/mainlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imagelogo"
+            android:src="@drawable/ic_flameslogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/splashText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="@string/flames_game_application"
+            android:textColor="#e2979c"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/mainlogo"
+            app:layout_constraintStart_toStartOf="@+id/mainlogo"
+            app:layout_constraintTop_toBottomOf="@+id/mainlogo"
+            app:layout_constraintVertical_bias="0.87" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         
