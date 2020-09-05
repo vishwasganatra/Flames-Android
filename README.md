@@ -26,19 +26,19 @@
    <table align="center" border="0" >
    <tr>
     <td>
-    <img width="100" src="imgSrc\splash.png"/>
+    <img width="300" src="imgSrc\splash.png"/>
     </td>
     <td>
-    <img width="100" src="imgSrc\main1.png"/>
+    <img width="300" src="imgSrc\main1.png"/>
     </td>
    </tr>
 
    <tr>
     <td>
-    <img width="100" src="imgSrc\main2.png"/>
+    <img width="300" src="imgSrc\main2.png"/>
     </td>
     <td>
-    <img width="100" src="imgSrc\main3.png"/>
+    <img width="300" src="imgSrc\main3.png"/>
     </td>
    </tr>
    
